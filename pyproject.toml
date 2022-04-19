@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "physical-models"
+version = "0.1.0"
+description = "Physical models for solving common physical problems."
+authors = ["Shizuku-Asami <xv.chronos@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^7.1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
