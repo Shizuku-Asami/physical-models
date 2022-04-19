@@ -46,7 +46,7 @@ class ConstantVelocityModel:
 
     def solve(self, p1, p2, t1, t2):
         self.find_velocity_from_points(p1, p2, t1, t2)
-        self.find_intercept_from_point(self, p1, t1)
+        self.find_intercept_from_point(p1, t1)
         return self.velocity, self.intercept
 
     def position(self, t):
